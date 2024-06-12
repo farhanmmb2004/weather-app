@@ -1,0 +1,31 @@
+.info *{
+color: black;
+background-color: rgb(146, 146, 219);
+}
+@media (max-width:600px) {
+    .info{
+        width: 300px;
+    }
+    body{
+        background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/d8b05154827733.596dc77a0361f.gif);
+    }
+}
+@media (min-width:600px) {
+    .info{
+        width: 300px;
+    }
+    body{
+        background-image: url(https://i.pinimg.com/originals/87/9e/00/879e002a9082b4d32901840cb70c0929.gif);
+        background-size: cover;
+    }
+}
+@media (min-width:900px) {
+    .info{
+        width: 300px;
+    }
+    body{
+        background-image: url(https://i.pinimg.com/originals/bd/72/d1/bd72d10c741dde2ce2684577ffa0d86f.gif);
+        background-size: cover;
+    }
+}
+
